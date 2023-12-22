@@ -7,8 +7,12 @@ import HelloWorld from './components/HelloWorld.vue'
 <template>
   <div class="flex justify-center">
     <a href="https://vitejs.dev" target="_blank">
+      <icon-svg name="vite" class="logo vite min-w-[200px]  min-h-[200px]" />
+      <!-- <img src="./assets/svg/vite.svg" class="logo vue" alt="Vue logo" /> -->
+    </a>
+    <a href="https://vitejs.dev" target="_blank">
       <icon-svg name="vue" class="logo vue min-w-[200px]  min-h-[200px]" />
-      <!-- <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" /> -->
+      <!-- <img src="./assets/svg/vue.svg" class="logo vue" alt="Vue logo" /> -->
     </a>
   </div>
   <HelloWorld msg="Vite + Vue" />

@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { defineAsyncComponent, defineProps } from 'vue'
+import { defineAsyncComponent, defineProps, defineOptions } from 'vue'
+
+defineOptions({
+  name: 'icon-svg'
+})
 
 const props = defineProps({
     name: String
